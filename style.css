@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    padding:10px;
+    text-align:center;
+    flex-wrap: nowrap;
+}
+
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(125, 78, 190);
+    background-image:url(stars.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    
+}
+
+
+            
+    
+#navbar{
+    background-color: royalblue ;
+    text-align:center;
+    font-size:30px;
+    display:flex;
+    justify-content:space-evenly;
+    width:auto;
+    border-style: double;
+    border-color: rgb(42, 52, 157);
+    border-width: 10px;
+
+}
+
+#navbar a{
+    font-family: fantasy;
+    text-decoration: none;
+  
+}
+
+#navbar a:hover{
+    color:purple;
+}
+
+.image1{
+    border-radius: 50%;
+}
+
+.image2{
+    width:80%;
+    border-radius: 50%;
+}
+
+
